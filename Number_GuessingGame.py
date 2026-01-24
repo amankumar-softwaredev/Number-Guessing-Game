@@ -8,6 +8,7 @@ while True:
 
     except Exception:
         print("PLEASE ENTER A VALID INTEGER NUMBER.")
+        break
 
     if(number_guess > number_random or number_guess < number_random):
         print("PLEASE ENTER A NUMBER BETWEEN 20 AND 30 (INCLUDING BOTH).")
@@ -19,4 +20,5 @@ while True:
 
     else:
         print("YOU ARE NOT WINNER! ")
+
 
